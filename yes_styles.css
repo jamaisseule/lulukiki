@@ -1,27 +1,32 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #797dac;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #797dac;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.gif{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gif {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gif img {
-    width: 30%;
-    height: 30%;
+  width: 70%;
+  height: 70%;
 }
 
+@media (max-width: 600px) {
+  .gif img {
+    width: 90%;
+    height: auto;
+  }
+}
 
 h1 {
-    text-align: center;
-    font-size: 2em;
-    color: #ffffff;
-    margin: 15px 0;
+  text-align: center;
+  font-size: 2em;
+  color: #ffffff;
+  margin: 15px 0;
 }
